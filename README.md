@@ -1,4 +1,4 @@
-# Dynamic DNS using DigitalOcean's DNS Services
+# Dynamic DNS using DigitalOcean's DNS Services (for Raspberry Pi)
 
 A script that pushes the public IP address of the running machine to DigitalOcean's DNS API's. It requires an existing A record to update.
 
