@@ -1,5 +1,7 @@
 # Dynamic DNS using DigitalOcean's DNS Services (for Raspberry Pi)
 
+[![](https://images.microbadger.com/badges/image/tunix/digitalocean-dyndns-armv7.svg)](https://microbadger.com/images/tunix/digitalocean-dyndns-armv7 "Get your own image badge on microbadger.com")
+
 A script that pushes the public IP address of the running machine to DigitalOcean's DNS API's. It requires an existing A record to update.
 
 ## Setup
