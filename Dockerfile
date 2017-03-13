@@ -1,5 +1,5 @@
 FROM dduportal/rpi-alpine
-MAINTAINER Alper Kanat <tunix@raptiye.org>
+MAINTAINER Alper Kanat <me@alperkan.at>
 RUN apk add --update curl jq
 COPY dyndns.sh /
 USER nobody

@@ -20,13 +20,14 @@ Pick one of the options below using the following settings:
 ### Docker (Recommended)
 
 ```
-$ docker pull tunix/digitalocean-dyndns
+$ docker pull tunix/digitalocean-dyndns-armv7
 $ docker run -d --name dyndns \
+    --restart always \
     -e DIGITALOCEAN_TOKEN="your_token_here" \
     -e DOMAIN="yourdomain.com" \
     -e NAME="subdomain" \
     -e SLEEP_INTERVAL=2 \
-    tunix/digitalocean-dyndns
+    tunix/digitalocean-dyndns-armv7
 ```
 
 ### Manual
