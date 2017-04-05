@@ -13,7 +13,7 @@ test -z $DOMAIN && die "DOMAIN not set!"
 test -z $NAME && die "NAME not set!"
 
 dns_list="$api_host/domains/$DOMAIN/records"
-domain_records=$(curl -s -X GET \
+domain_records=$(curl "$CURL_OPTS" -s -X GET \
     -H "Content-Type: application/json" \
     -H "Authorization: Bearer $DIGITALOCEAN_TOKEN" \
     $dns_list)
